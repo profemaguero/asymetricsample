@@ -31,7 +31,6 @@ import javax.crypto.spec.SecretKeySpec;
 
 public class EncryptManager {
 
-	private final int KEYSIZE = 8;
 	private final String KEY_EXTENSION = ".key";
 	private final String PUBLIC = "public";
 	private final String PRIVATE = "private";

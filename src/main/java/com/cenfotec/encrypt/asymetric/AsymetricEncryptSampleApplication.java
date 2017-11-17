@@ -12,14 +12,14 @@ import org.springframework.boot.Banner;
 import org.springframework.boot.CommandLineRunner;
 
 @SpringBootApplication
-public class SymetricEncryptSampleApplication implements CommandLineRunner {
+public class AsymetricEncryptSampleApplication implements CommandLineRunner {
 	
 	private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	private static EncryptManager encryptManager = new EncryptManager();
 	
 	
 	public static void main(String[] args) {
-		SpringApplication  app = new SpringApplication(SymetricEncryptSampleApplication.class);
+		SpringApplication  app = new SpringApplication(AsymetricEncryptSampleApplication.class);
 		app.setBannerMode(Banner.Mode.OFF);
 		app.run(args);
 	}
